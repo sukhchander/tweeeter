@@ -1,0 +1,7 @@
+/.bundle
+.byebug_history
+.DS_Store
+**.swp
+/log/*
+/tmp/*
+doc

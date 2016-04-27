@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    tweeter (0.0.3)
+      json (~> 1.8)
+      mime-types (~> 3.0)
+      oauth (~> 0.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (1.8.3)
+    mime-types (3.0)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0221)
+    oauth (0.5.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json
+  mime-types
+  oauth
+  tweeter!
+
+BUNDLED WITH
+   1.11.2

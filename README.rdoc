@@ -1,0 +1,26 @@
+=tweeter
+
+== DESCRIPTION
+
+Tweeter is a wrapper around the Twitter REST API v1.1.
+
+== Build
+
+  $ gem build tweeter.gemspec
+
+  $ gem ins tweeter-0.0.3.gem
+
+== Twitter OAuth
+
+  create a twitter application to obtain a consumer key and consumer secret
+
+== Usage
+
+  require 'tweeter'
+
+=== Creating a Tweeter::Client
+
+  client = Tweeter::Client.new(auth: {
+    consumer_key: 'xxxxxxxxxxxxxx',
+    consumer_secret: 'xxxxxxxxxxxxxx'
+  })
